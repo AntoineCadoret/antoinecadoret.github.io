@@ -1910,6 +1910,12 @@ body.is-ie header.major > h1:after {
   header.major > p br {
     display: none;
   }
+  .actions{
+    flex-direction: column;
+  }
+  .button{
+    margin-bottom: 1em;
+  }
 }
 
 /* Form */
@@ -3556,7 +3562,7 @@ body.is-preload #header.alt {
 
 #banner > .inner .content > * {
   margin-right: 1.5em;
-  margin-bottom: 0;
+  margin-bottom: 2em;
 }
 
 #banner > .inner .content > :last-child {
@@ -3564,7 +3570,7 @@ body.is-preload #header.alt {
 }
 
 #banner > .inner .content p {
-  font-size: 0.7em;
+  font-size: 1em;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -3619,7 +3625,16 @@ body.is-preload #banner > .inner {
   transform: translateX(-0.5em);
   opacity: 0;
 }
-
+#firstname{
+  color: #9bf1ff;
+}
+.presentation{
+  flex-direction: column;
+}
+.presentation:first-child{
+  margin-bottom: 4em;
+  font-size: 3em;
+}
 @media screen and (max-width: 1280px) {
   #banner {
     background-attachment: scroll;
@@ -3689,6 +3704,9 @@ body.is-preload #banner > .inner {
   margin: 0 auto;
   max-width: 65em;
   width: calc(100% - 6em);
+}
+.major h2{
+  padding: 1em;
 }
 
 @media screen and (max-width: 736px) {
