@@ -4060,3 +4060,8 @@ body.is-menu-visible #menu .inner {
 .competencies div{
 	margin: 1rem 1.5rem;
 }
+
+.competencies img {
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
