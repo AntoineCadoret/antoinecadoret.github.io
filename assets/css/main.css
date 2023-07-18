@@ -24,6 +24,9 @@ header{
 #header-nav{
     display: none;
 }
+#lang{
+  width: 2%;
+}
 @media(min-width: 500px){
     #header-nav{
         display:flex;
