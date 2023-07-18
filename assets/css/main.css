@@ -38,7 +38,7 @@ header{
 .dropdown-nav{ 
   z-index:200;
   position: relative;
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #7DA03B;
 }
@@ -147,7 +147,8 @@ header{
     color: #7C8F3B;
 }
 #main-nav{
-    margin-top: 1rem;
+  z-index: 17;
+  margin-top: 1rem;
 }
 #main-nav .main-nav-elem{
     padding: 0.1rem;
