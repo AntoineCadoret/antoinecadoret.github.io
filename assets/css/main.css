@@ -24,12 +24,44 @@ header{
 #header-nav{
     display: none;
 }
+.dropdown-menu{
+  z-index: 100;
+  display: block;
+}
+#dropdown-button{
+  margin-right: 10%;
+}
+#dropdown-icon{
+  width: 2rem;
+  height: 2rem;
+}
+.dropdown-nav{ 
+  z-index:200;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #7DA03B;
+}
+.dropdown-nav-link{
+  min-width:100%;
+  padding: 0.5rem;
+  color: #F6F6F6;
+  text-decoration: none;
+}
+.dropdown-nav-link:hover{
+  background-color: #F6F6F6;
+  color: #7DA03B;
+  /* min-width: 100%; */
+}
 #lang{
   width: 2%;
 }
 @media(min-width: 500px){
     #header-nav{
         display:flex;
+    }
+    .dropdown-menu, .dropdown-nav{
+      display: none;
     }
 }
 .header-link{
@@ -190,6 +222,7 @@ header{
 }
 /* ball animation */
 .ball-container {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -199,6 +232,7 @@ header{
 }
 
 .ball {
+    z-index: 2;
     position: absolute;
     border-radius: 50%;
     animation: move 5s linear infinite;
