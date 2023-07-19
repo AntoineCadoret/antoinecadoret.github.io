@@ -212,7 +212,6 @@ header{
 } */
 .button{
     z-index: 12;
-    min-width: 75%;
     background-color: #7C8F3B;
     color: #F6F6F6;
     text-decoration: none;
@@ -221,9 +220,18 @@ header{
     border-radius: 2rem;
     text-align: center;
 }
+#contact-button, #cv-button{
+  min-width: 75%;
+}
+.project-button{
+  min-width: 45%;
+}
 @media(min-width: 575px){
-  .button{
+  #contact-button, #cv-button{
     min-width: 30%;
+  }
+  .project-button{
+    min-width: 20%;
   }
 }
 /* ball animation */
