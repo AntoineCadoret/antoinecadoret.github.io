@@ -212,7 +212,7 @@ header{
 } */
 .button{
     z-index: 12;
-    width: 20%;
+    min-width: 75%;
     background-color: #7C8F3B;
     color: #F6F6F6;
     text-decoration: none;
@@ -220,6 +220,11 @@ header{
     margin: 2rem;
     border-radius: 2rem;
     text-align: center;
+}
+@media(min-width: 575px){
+  .button{
+    min-width: 30%;
+  }
 }
 /* ball animation */
 .ball-container {
@@ -529,15 +534,7 @@ header{
     transform: rotate(360deg);
   }
 }
-#contact{
-  min-width: 75%;
-}
 .contact-content{
   margin: 1rem;
   text-align: center;
-}
-@media(min-width: 575px){
-  #contact{
-    min-width: 30%;
-  }
 }
