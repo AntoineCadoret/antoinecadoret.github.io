@@ -38,15 +38,13 @@ header{
 .dropdown-nav{ 
   z-index:200;
   position: relative;
+  min-width:100vw;
   display: none;
   flex-direction: column;
   background-color: #7DA03B;
 }
 .dropdown-nav-link{
-  min-width:100vw;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  padding: 1rem;
   color: #F6F6F6;
   text-decoration: none;
 }
