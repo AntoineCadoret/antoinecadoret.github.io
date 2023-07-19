@@ -529,3 +529,15 @@ header{
     transform: rotate(360deg);
   }
 }
+#contact{
+  min-width: 75%;
+}
+.contact-content{
+  margin: 1rem;
+  text-align: center;
+}
+@media(min-width: 575px){
+  #contact{
+    min-width: 30%;
+  }
+}
