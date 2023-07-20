@@ -474,9 +474,14 @@ header{
 .project a{
   position: absolute;
   z-index: 100; 
-  left: 29%; 
+  left: 19%; 
   right: 0; 
   width: 200px;
+}
+@media(min-width: 575px){
+  .project a{
+    left: 29%;
+  }
 }           
 /* ul {
   list-style-type: "OO";
