@@ -22,7 +22,7 @@ const projects: { title: string, picture: string, technologies: string[], descri
             "Adobe Illustrator",
             "Adobe Animate"
         ],
-        description: "Projets scolaires en TypeScript de jeu vidéo basée sur la saga Star Wars. Les illustrations et animations de ce on été réalisée sur les applications de la gamme Adobe, Illustrator et Animate."
+        description: "Projet scolaire en TypeScript de jeu vidéo basé sur la saga Star Wars. Les illustrations et animations de ce projet on été réalisé sur les applications de la gamme Adobe, Illustrator et Animate."
     },
     {
         title: "Airline Manager",
@@ -33,7 +33,7 @@ const projects: { title: string, picture: string, technologies: string[], descri
             "Redux",
             "React-Router"
         ],
-        description: "Projet personnel visant à améliorer mes compétences avec React.js et Redux. Il s'agit d'un application dans lequel on peut gérer sa flotte aérienne."
+        description: "Projet personnel visant à améliorer mes compétences avec React.js et Redux. Il s'agit d'une application dans laquelle on peut gérer sa flotte aérienne."
     },
     {
         title: "NHL Team Jersey",
@@ -74,7 +74,7 @@ const projects: { title: string, picture: string, technologies: string[], descri
         technologies: [
             "React.js"
         ],
-        description: "Projet personnel qui me permet de me familiariser avec React.js avecun simple jeu de bonhomme pendu."
+        description: "Projet personnel qui me permet de me familiariser avec React.js avec un simple jeu de bonhomme pendu."
     }
     ,
     {
@@ -97,7 +97,7 @@ const MesProjetsPage: React.FC<PageProps> = () => {
                 {projects.map((project, index) => {
                     return (
                         <div className="w-[80vw] md:w-[40vw] bg-gray-200 my-4 p-4 rounded-xl" key={index}>
-                            <p className="text-center text-xl font-[Agbalumo] my-4">{project.title}</p>
+                            <p className="text-center text-xl font-['Agbalumo'] my-4">{project.title}</p>
                             <img className="w-full md:h-[35vh] rounded-md" src={project.picture} alt={project.title} />
                             <div className="flex flex-wrap justify-center">
                                 {project.technologies.map((technologie, techIndex) => {

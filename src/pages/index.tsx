@@ -5,15 +5,12 @@ import Header from "../components/header";
 import ContactMe from "../components/contactme";
 import photo from "../images/photo-presentation.jpg";
 
-// const headerStyles = {
-//   textAlign: "center"
-// };
+
 const presentationImageStyle = {
   width: "200px",
   borderRadius: "40px"
 };
 const sectionHead = {
-  fontFamily: "Agbalumo",
   fontSize: "2rem",
   textAlign: "center"
 };
@@ -146,7 +143,7 @@ const IndexPage: React.FC<PageProps> = () => {
       </div>
 
       <div>
-        <h3 className="my-8" style={sectionHead}>Expériences Professionnelles</h3>
+        <h3 className="my-8 font-['Agbalumo']" style={sectionHead}>Expériences Professionnelles</h3>
         <div className="flex flex-wrap justify-around" style={sectionGap}>
           {experiences.map((experience, index) => {
             return (

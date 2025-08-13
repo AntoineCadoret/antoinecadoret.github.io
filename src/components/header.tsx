@@ -3,8 +3,7 @@ import { Link } from "gatsby";
 import "../styles/global.css";
 
 const nameStyles = {
-    color: "#fecd35",
-    fontFamily: "Agbalumo"
+    color: "#fecd35"
 };
 const secondTitleStyle = {
     fontFamily: "Helvetica"
@@ -17,7 +16,7 @@ const Header = () => {
             <div className="w-full lg:flex lg:justify-between lg:items-center relative">
                 <div className="hidden lg:block w-1/3"></div>
                 <div className="lg:absolute w-screen lg:w-1/3 my-2 text-center lg:left-1/2 lg:transform lg:-translate-x-1/2 flex flex-col items-center">
-                    <h1 className="py-2 text-xl lg:text-5xl" style={nameStyles}>Antoine Cadoret</h1>
+                    <h1 className="py-2 text-xl lg:text-5xl font-['Agbalumo']" style={nameStyles}>Antoine Cadoret</h1>
                     <h2 className="py-2 text-lg lg:text-2xl" style={secondTitleStyle}>Développeur Full-Stack</h2>
                 </div>
                 <nav className="w-screen lg:w-1/3 flex justify-around lg:justify-end">
