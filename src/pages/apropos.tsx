@@ -4,6 +4,7 @@ import "../styles/global.css";
 import photo from "../images/photo-presentation.jpg";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 import ContactMe from "../components/contactme";
 
 const competences: string[] = [
@@ -75,6 +76,7 @@ const AboutPage: React.FC<PageProps> = () => {
 
             </div>
             <ContactMe styles="bg-[#fecd35] rounded-lg m-8 p-8" text={<div className="text-center my-4"><p className="my-2">Vous avez coché une ou plusieurs de ces cases?</p> <p className="my-2">Ou vous pensez avoir une propositions qui pourrait tout de même m'intéressé?</p>  <p className="my-2">Contactez-moi et je vous répondrerai dans les plus brefs délais!</p></div>} />
+            <Footer />
         </main>
     );
 };

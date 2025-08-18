@@ -2,6 +2,7 @@ import * as React from "react";
 import { type HeadFC, type PageProps } from "gatsby";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 import ContactMe from "../components/contactme";
 import photo from "../images/photo-presentation.jpg";
 
@@ -172,7 +173,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
       </div>
       <ContactMe styles="bg-gray-100 rounded-lg m-8 py-8 p-4 sm:p-8" text={<div className="text-center my-4"><p className="my-2">Vous avez une offre à me proposer?</p> <p className="my-2">Contactez-moi et je vous répondrerai dans les plus brefs délais!</p></div>} />
-
+      <Footer />
     </main>
   )
 }

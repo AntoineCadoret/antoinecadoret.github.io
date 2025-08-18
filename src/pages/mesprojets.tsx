@@ -3,6 +3,7 @@ import type { HeadFC, PageProps } from "gatsby";
 import "../styles/global.css";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 import ContactMe from "../components/contactme";
 
 import jeuxVideoPic from "../images/jeux-video-starwars.gif";
@@ -112,6 +113,7 @@ const MesProjetsPage: React.FC<PageProps> = () => {
                 })}
             </div>
             <ContactMe styles="bg-[#fecd35] rounded-lg m-8 p-8" text={<div className="text-center my-4"><p className="my-2">Mes projets vous intéresses?</p> <p className="my-2">Vous voulez en apprendre plus sur mes prochains projets?</p> <p className="my-2">Contactez-moi et je vous répondrerai dans les plus brefs délais!</p></div>} />
+            <Footer />
         </main>
     )
 };
