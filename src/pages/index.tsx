@@ -132,7 +132,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <div className="flex flex-col items-center mt-60 my-4">
         <div className="bg-gray-100 rounded-lg flex flex-col items-center pb-3 max-w-[80vw]">
           <img className="relative -top-20 border-4 border-white" style={presentationImageStyle} src={photo} alt="Antoine Cadoret" />
-          <p className="relative -top-10 text-lg px-5 sm:px-48">Développeur Front-End passionné venant du Québec avec des compétences en back-end. Je réside maintenant à Paris, France.</p>
+          <p className="relative -top-10 text-lg px-5 sm:px-48">Développeur Full-Stack passionné venant du Québec, ayant suivi une formation en Front-End et ayant de bonnes connaissances en Back-End. Je réside maintenant à Paris, France.</p>
           <p className="font-black">Mes technologies de prédilection:</p>
           <div className="flex flex-wrap justify-center">
             {tech.map((technologie, index) => {
